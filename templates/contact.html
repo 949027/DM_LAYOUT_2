@@ -1,7 +1,8 @@
-<!DOCTYPE html>
-<html>
-<head></head>
-<body>
-    <h1>Тут будут контакты</h1>
-</body>
-</html>
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}
+  <title>Sensive Blog - Contact</title>
+{% endblock %}
+{% block content %}
+{{html_map|safe}}
+{% endblock %}
